@@ -30,6 +30,9 @@ desktop.ini
 *.njsproj
 *.sln
 
+# Credentials — NEVER COMMIT
+.credentials.json
+
 # Logs
 logs/
 *.log

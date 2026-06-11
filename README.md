@@ -1,26 +1,26 @@
 # 2303491530128
 
-## Assessment Submission — Yuvraj Singh
-
 ## Structure
-- `question1/` — Backend REST API (Express)
-- `question2/` — DSA Solution
-- `question3/` — Frontend React App
+- `logging_middleware/` — Reusable logging package (calls Affordmed Log API)
+- `notification_system_design.md` — System design (Stages 1–6)
+- `notification_app_be/` — Backend REST API (Express + TypeScript/JS)
+- `notification_app_fe/` — Frontend React app (Material UI)
+- `stage6/` — Priority Inbox implementation
 
-## Track chosen: [Full Stack / Frontend / Backend]
+## Track: Full Stack
 
 ## How to run
 
-### Question 1 (Backend)
+### Backend
 ```bash
-cd question1
+cd notification_app_be
 npm install
 node server.js
 ```
 
-### Question 3 (Frontend)
+### Frontend
 ```bash
-cd question3
+cd notification_app_fe
 npm install
 npm start
 ```
